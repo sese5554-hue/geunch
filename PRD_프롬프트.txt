@@ -49,6 +49,24 @@
 
 4. 진행 기록
 
+브랜치: auth
+PRD 첫 저장: d1739d0 · 가입이랑 로그인에서 만들 기능 정리
+https://github.com/sese5554-hue/geunch/commit/d1739d0cafd10c0564a8d442d5426f745ed95146
+PRD·프롬프트 문서 정리: a5691e8 · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/a5691e8dc4fc26e455355960b83ff121c6bee743
+
+기능을 만들면서 저장한 커밋
+만들 내용 정리: 2267072 · 약관에서 체크할 항목이랑 저장 방법 정리
+https://github.com/sese5554-hue/geunch/commit/2267072ff4ca170062a295ca4d44abdb7bc6358f
+화면 만들기: 53b69de · 약관 체크하는 화면 먼저 만듦
+https://github.com/sese5554-hue/geunch/commit/53b69dea7fefe7388f96e9848fbbd45bcd138b2e
+내용 정리: 439986d · 전체 동의랑 개별 체크가 같이 바뀌게 함
+https://github.com/sese5554-hue/geunch/commit/439986dcde9d317b3f88efcc3e06286558d1a3c3
+동작 연결: 48ec9f3 · 약관 동의한 내용 저장하고 다시 보이게 연결
+https://github.com/sese5554-hue/geunch/commit/48ec9f3d66dbdd167b548fa99f8a2488ed9df52f
+확인: 04ca286 · 약관 저장이랑 다시 불러오기 직접 확인
+https://github.com/sese5554-hue/geunch/commit/04ca286fcc3c17aa8cc2a5126012e6b6af0dee1a
+
 직접 확인한 내용과 화면은 docs/00-약관.md에 정리했다.
 
 5. 문제 해결
@@ -118,6 +136,14 @@
 '이용 유형 선택' 내용을 PRD랑 비교해서 빠진 기능을 고쳐. 새로고침한 뒤에도 맞게 나오는지 확인해. 문제가 있으면 고치고 바꾼 파일을 알려.
 
 4. 진행 기록
+
+브랜치: auth
+PRD 첫 저장: d1739d0 · 가입이랑 로그인에서 만들 기능 정리
+https://github.com/sese5554-hue/geunch/commit/d1739d0cafd10c0564a8d442d5426f745ed95146
+PRD·프롬프트 문서 정리: a5691e8 · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/a5691e8dc4fc26e455355960b83ff121c6bee743
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
 
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
@@ -189,6 +215,14 @@
 
 4. 진행 기록
 
+브랜치: auth
+PRD 첫 저장: d1739d0 · 가입이랑 로그인에서 만들 기능 정리
+https://github.com/sese5554-hue/geunch/commit/d1739d0cafd10c0564a8d442d5426f745ed95146
+PRD·프롬프트 문서 정리: a5691e8 · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/a5691e8dc4fc26e455355960b83ff121c6bee743
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
+
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
 5. 문제 해결
@@ -258,6 +292,14 @@
 '회원가입' 내용을 PRD랑 비교해서 빠진 기능을 고쳐. 새로고침한 뒤에도 맞게 나오는지 확인해. 문제가 있으면 고치고 바꾼 파일을 알려.
 
 4. 진행 기록
+
+브랜치: auth
+PRD 첫 저장: d1739d0 · 가입이랑 로그인에서 만들 기능 정리
+https://github.com/sese5554-hue/geunch/commit/d1739d0cafd10c0564a8d442d5426f745ed95146
+PRD·프롬프트 문서 정리: a5691e8 · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/a5691e8dc4fc26e455355960b83ff121c6bee743
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
 
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
@@ -329,6 +371,14 @@
 
 4. 진행 기록
 
+브랜치: auth
+PRD 첫 저장: d1739d0 · 가입이랑 로그인에서 만들 기능 정리
+https://github.com/sese5554-hue/geunch/commit/d1739d0cafd10c0564a8d442d5426f745ed95146
+PRD·프롬프트 문서 정리: a5691e8 · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/a5691e8dc4fc26e455355960b83ff121c6bee743
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
+
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
 5. 문제 해결
@@ -399,6 +449,14 @@
 
 4. 진행 기록
 
+브랜치: auth
+PRD 첫 저장: d1739d0 · 가입이랑 로그인에서 만들 기능 정리
+https://github.com/sese5554-hue/geunch/commit/d1739d0cafd10c0564a8d442d5426f745ed95146
+PRD·프롬프트 문서 정리: a5691e8 · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/a5691e8dc4fc26e455355960b83ff121c6bee743
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
+
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
 5. 문제 해결
@@ -468,6 +526,14 @@
 '면허 정보 입력' 내용을 PRD랑 비교해서 빠진 기능을 고쳐. 새로고침한 뒤에도 맞게 나오는지 확인해. 문제가 있으면 고치고 바꾼 파일을 알려.
 
 4. 진행 기록
+
+브랜치: auth
+PRD 첫 저장: d1739d0 · 가입이랑 로그인에서 만들 기능 정리
+https://github.com/sese5554-hue/geunch/commit/d1739d0cafd10c0564a8d442d5426f745ed95146
+PRD·프롬프트 문서 정리: a5691e8 · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/a5691e8dc4fc26e455355960b83ff121c6bee743
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
 
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
