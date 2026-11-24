@@ -1,3 +1,5 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
-createRoot(document.getElementById('root')!).render(<main><h1>근차 · 공용</h1><p>개발 환경 준비</p></main>);
+import{createRoot}from'react-dom/client';
+import{Profile}from'./Profile';
+import'./style.css';
+createRoot(document.getElementById('root')!).render(<Profile/>);
