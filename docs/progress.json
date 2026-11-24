@@ -1,0 +1,82 @@
+{
+  "foundation": "verified",
+  "screens": [
+    {
+      "screen": 0,
+      "title": "약관 및 권한 동의",
+      "stages": {
+        "design": "pending",
+        "layout": "pending",
+        "model": "pending",
+        "logic": "pending",
+        "verification": "pending"
+      }
+    },
+    {
+      "screen": 2,
+      "title": "이용 유형 선택",
+      "stages": {
+        "design": "pending",
+        "layout": "pending",
+        "model": "pending",
+        "logic": "pending",
+        "verification": "pending"
+      }
+    },
+    {
+      "screen": 3,
+      "title": "로그인",
+      "stages": {
+        "design": "pending",
+        "layout": "pending",
+        "model": "pending",
+        "logic": "pending",
+        "verification": "pending"
+      }
+    },
+    {
+      "screen": 4,
+      "title": "회원가입",
+      "stages": {
+        "design": "pending",
+        "layout": "pending",
+        "model": "pending",
+        "logic": "pending",
+        "verification": "pending"
+      }
+    },
+    {
+      "screen": 5,
+      "title": "본인 확인",
+      "stages": {
+        "design": "pending",
+        "layout": "pending",
+        "model": "pending",
+        "logic": "pending",
+        "verification": "pending"
+      }
+    },
+    {
+      "screen": 6,
+      "title": "동네 인증",
+      "stages": {
+        "design": "pending",
+        "layout": "pending",
+        "model": "pending",
+        "logic": "pending",
+        "verification": "pending"
+      }
+    },
+    {
+      "screen": 7,
+      "title": "면허 정보 입력",
+      "stages": {
+        "design": "pending",
+        "layout": "pending",
+        "model": "pending",
+        "logic": "pending",
+        "verification": "pending"
+      }
+    }
+  ]
+}
