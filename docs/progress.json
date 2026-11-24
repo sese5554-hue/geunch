@@ -5,12 +5,13 @@
       "screen": 0,
       "title": "약관 및 권한 동의",
       "stages": {
-        "design": "pending",
-        "layout": "pending",
-        "model": "pending",
-        "logic": "pending",
-        "verification": "pending"
-      }
+        "design": "verified",
+        "layout": "verified",
+        "model": "verified",
+        "logic": "verified",
+        "verification": "verified"
+      },
+      "evidence": "docs/00-약관.md"
     },
     {
       "screen": 2,
