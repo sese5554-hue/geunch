@@ -1,0 +1,159 @@
+{
+  "foundation": "verified",
+  "screens": [
+    {
+      "screen": 1,
+      "title": "홈 둘러보기",
+      "stages": {
+        "design": "pending",
+        "layout": "pending",
+        "model": "pending",
+        "logic": "pending",
+        "verification": "pending"
+      }
+    },
+    {
+      "screen": 8,
+      "title": "게스트 홈",
+      "stages": {
+        "design": "pending",
+        "layout": "pending",
+        "model": "pending",
+        "logic": "pending",
+        "verification": "pending"
+      }
+    },
+    {
+      "screen": 9,
+      "title": "지도에서 차량 찾기",
+      "stages": {
+        "design": "pending",
+        "layout": "pending",
+        "model": "pending",
+        "logic": "pending",
+        "verification": "pending"
+      }
+    },
+    {
+      "screen": 10,
+      "title": "차량 검색 결과",
+      "stages": {
+        "design": "pending",
+        "layout": "pending",
+        "model": "pending",
+        "logic": "pending",
+        "verification": "pending"
+      }
+    },
+    {
+      "screen": 11,
+      "title": "검색 필터",
+      "stages": {
+        "design": "pending",
+        "layout": "pending",
+        "model": "pending",
+        "logic": "pending",
+        "verification": "pending"
+      }
+    },
+    {
+      "screen": 12,
+      "title": "차량 상세",
+      "stages": {
+        "design": "pending",
+        "layout": "pending",
+        "model": "pending",
+        "logic": "pending",
+        "verification": "pending"
+      }
+    },
+    {
+      "screen": 13,
+      "title": "차량 세부 정보",
+      "stages": {
+        "design": "pending",
+        "layout": "pending",
+        "model": "pending",
+        "logic": "pending",
+        "verification": "pending"
+      }
+    },
+    {
+      "screen": 14,
+      "title": "대여 일정",
+      "stages": {
+        "design": "pending",
+        "layout": "pending",
+        "model": "pending",
+        "logic": "pending",
+        "verification": "pending"
+      }
+    },
+    {
+      "screen": 15,
+      "title": "예약 확인",
+      "stages": {
+        "design": "pending",
+        "layout": "pending",
+        "model": "pending",
+        "logic": "pending",
+        "verification": "pending"
+      }
+    },
+    {
+      "screen": 16,
+      "title": "결제 수단 및 예약 요청",
+      "stages": {
+        "design": "pending",
+        "layout": "pending",
+        "model": "pending",
+        "logic": "pending",
+        "verification": "pending"
+      }
+    },
+    {
+      "screen": 17,
+      "title": "예약 요청 및 완료",
+      "stages": {
+        "design": "pending",
+        "layout": "pending",
+        "model": "pending",
+        "logic": "pending",
+        "verification": "pending"
+      }
+    },
+    {
+      "screen": 18,
+      "title": "예약 상세",
+      "stages": {
+        "design": "pending",
+        "layout": "pending",
+        "model": "pending",
+        "logic": "pending",
+        "verification": "pending"
+      }
+    },
+    {
+      "screen": 45,
+      "title": "게스트 예약 목록",
+      "stages": {
+        "design": "pending",
+        "layout": "pending",
+        "model": "pending",
+        "logic": "pending",
+        "verification": "pending"
+      }
+    },
+    {
+      "screen": 48,
+      "title": "보험 선택",
+      "stages": {
+        "design": "pending",
+        "layout": "pending",
+        "model": "pending",
+        "logic": "pending",
+        "verification": "pending"
+      }
+    }
+  ]
+}
