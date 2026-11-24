@@ -1,3 +1,5 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
-createRoot(document.getElementById('root')!).render(<main><h1>근차 · 게스트</h1><p>개발 환경 준비</p></main>);
+import{createRoot}from'react-dom/client';
+import{VehicleSearch}from'./VehicleSearch';
+import'./style.css';
+createRoot(document.getElementById('root')!).render(<VehicleSearch/>);
