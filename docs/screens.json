@@ -1,0 +1,195 @@
+[
+  {
+    "number": 19,
+    "id": "19",
+    "title": "예약 채팅방",
+    "group": "shared",
+    "related": [
+      18,
+      35,
+      44
+    ]
+  },
+  {
+    "number": 20,
+    "id": "20",
+    "title": "인수 전 차량 상태",
+    "group": "shared",
+    "related": [
+      18,
+      21,
+      22,
+      48
+    ]
+  },
+  {
+    "number": 21,
+    "id": "21",
+    "title": "반납 후 차량 상태",
+    "group": "shared",
+    "related": [
+      20,
+      22,
+      23
+    ]
+  },
+  {
+    "number": 22,
+    "id": "22",
+    "title": "외관 및 계기판 비교",
+    "group": "shared",
+    "related": [
+      19,
+      20,
+      21,
+      23
+    ]
+  },
+  {
+    "number": 23,
+    "id": "23",
+    "title": "최종 정산 및 추가 결제",
+    "group": "shared",
+    "related": [
+      21,
+      22,
+      24,
+      36
+    ]
+  },
+  {
+    "number": 24,
+    "id": "24",
+    "title": "이용 후기 작성",
+    "group": "shared",
+    "related": [
+      23,
+      35,
+      51
+    ]
+  },
+  {
+    "number": 37,
+    "id": "37",
+    "title": "게스트 마이페이지",
+    "group": "shared",
+    "related": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      47
+    ]
+  },
+  {
+    "number": 38,
+    "id": "38",
+    "title": "개인정보 수정",
+    "group": "shared",
+    "related": [
+      6,
+      37,
+      47
+    ]
+  },
+  {
+    "number": 39,
+    "id": "39",
+    "title": "면허 관리",
+    "group": "shared",
+    "related": [
+      7,
+      37,
+      47
+    ]
+  },
+  {
+    "number": 40,
+    "id": "40",
+    "title": "결제수단 관리",
+    "group": "shared",
+    "related": [
+      16,
+      37,
+      46,
+      47
+    ]
+  },
+  {
+    "number": 41,
+    "id": "41",
+    "title": "알림 설정",
+    "group": "shared",
+    "related": [
+      0,
+      37,
+      47
+    ]
+  },
+  {
+    "number": 42,
+    "id": "42",
+    "title": "고객센터",
+    "group": "shared",
+    "related": [
+      37,
+      43,
+      47
+    ]
+  },
+  {
+    "number": 43,
+    "id": "43",
+    "title": "1:1 문의 접수",
+    "group": "shared",
+    "related": [
+      38,
+      42
+    ]
+  },
+  {
+    "number": 44,
+    "id": "44",
+    "title": "채팅 목록",
+    "group": "shared",
+    "related": [
+      19,
+      37,
+      47
+    ]
+  },
+  {
+    "number": 46,
+    "id": "46",
+    "title": "결제수단 추가",
+    "group": "shared",
+    "related": [
+      16,
+      40
+    ]
+  },
+  {
+    "number": 47,
+    "id": "47",
+    "title": "호스트 마이페이지",
+    "group": "host",
+    "related": [
+      25,
+      26,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "number": 52,
+    "id": "52",
+    "title": "문의 내역",
+    "group": "shared"
+  }
+]
