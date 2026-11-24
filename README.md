@@ -37,8 +37,8 @@
 - npm run test:browser: .env의 DB에 연결해 Chrome에서 확인합니다. Windows는 설치된 Chrome을 사용합니다. 다른 환경은 npx playwright install chromium으로 브라우저를 준비합니다. 개발용 계정이 필요한 테스트 전에는 db:seed를 실행하세요.
 - npm run build: 타입 검사와 빌드.
 
-## 만들 내용과 부탁할 말
+## PRD와 프롬프트
 
 - 전체: [PRD와 프롬프트](PRD_프롬프트.txt)
 - 화면별 만들 내용: docs/prd/
-- 화면별 부탁할 말: docs/prompts/
+- 화면별 프롬프트: docs/prompts/
