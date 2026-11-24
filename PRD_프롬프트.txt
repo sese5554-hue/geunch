@@ -49,6 +49,14 @@
 
 4. 진행 기록
 
+브랜치: shared
+PRD 첫 저장: 61b44f4 · 채팅이랑 내 정보 등 같이 쓰는 기능 정리
+https://github.com/sese5554-hue/geunch/commit/61b44f4fc767a5b4ed81f65f32f5311885fda47d
+PRD·프롬프트 문서 정리: 39a95bb · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/39a95bb69f59fedd459e9a98cd2bc77faf2e9615
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
+
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
 5. 문제 해결
@@ -118,6 +126,14 @@
 '인수 전 차량 상태' 내용을 PRD랑 비교해서 빠진 기능을 고쳐. 새로고침한 뒤에도 맞게 나오는지 확인해. 문제가 있으면 고치고 바꾼 파일을 알려.
 
 4. 진행 기록
+
+브랜치: shared
+PRD 첫 저장: 61b44f4 · 채팅이랑 내 정보 등 같이 쓰는 기능 정리
+https://github.com/sese5554-hue/geunch/commit/61b44f4fc767a5b4ed81f65f32f5311885fda47d
+PRD·프롬프트 문서 정리: 39a95bb · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/39a95bb69f59fedd459e9a98cd2bc77faf2e9615
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
 
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
@@ -189,6 +205,14 @@
 
 4. 진행 기록
 
+브랜치: shared
+PRD 첫 저장: 61b44f4 · 채팅이랑 내 정보 등 같이 쓰는 기능 정리
+https://github.com/sese5554-hue/geunch/commit/61b44f4fc767a5b4ed81f65f32f5311885fda47d
+PRD·프롬프트 문서 정리: 39a95bb · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/39a95bb69f59fedd459e9a98cd2bc77faf2e9615
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
+
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
 5. 문제 해결
@@ -258,6 +282,14 @@
 '외관 및 계기판 비교' 내용을 PRD랑 비교해서 빠진 기능을 고쳐. 새로고침한 뒤에도 맞게 나오는지 확인해. 문제가 있으면 고치고 바꾼 파일을 알려.
 
 4. 진행 기록
+
+브랜치: shared
+PRD 첫 저장: 61b44f4 · 채팅이랑 내 정보 등 같이 쓰는 기능 정리
+https://github.com/sese5554-hue/geunch/commit/61b44f4fc767a5b4ed81f65f32f5311885fda47d
+PRD·프롬프트 문서 정리: 39a95bb · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/39a95bb69f59fedd459e9a98cd2bc77faf2e9615
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
 
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
@@ -329,6 +361,14 @@
 
 4. 진행 기록
 
+브랜치: shared
+PRD 첫 저장: 61b44f4 · 채팅이랑 내 정보 등 같이 쓰는 기능 정리
+https://github.com/sese5554-hue/geunch/commit/61b44f4fc767a5b4ed81f65f32f5311885fda47d
+PRD·프롬프트 문서 정리: 39a95bb · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/39a95bb69f59fedd459e9a98cd2bc77faf2e9615
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
+
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
 5. 문제 해결
@@ -398,6 +438,14 @@
 '이용 후기 작성' 내용을 PRD랑 비교해서 빠진 기능을 고쳐. 새로고침한 뒤에도 맞게 나오는지 확인해. 문제가 있으면 고치고 바꾼 파일을 알려.
 
 4. 진행 기록
+
+브랜치: shared
+PRD 첫 저장: 61b44f4 · 채팅이랑 내 정보 등 같이 쓰는 기능 정리
+https://github.com/sese5554-hue/geunch/commit/61b44f4fc767a5b4ed81f65f32f5311885fda47d
+PRD·프롬프트 문서 정리: 39a95bb · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/39a95bb69f59fedd459e9a98cd2bc77faf2e9615
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
 
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
@@ -469,6 +517,24 @@
 
 4. 진행 기록
 
+브랜치: shared
+PRD 첫 저장: 61b44f4 · 채팅이랑 내 정보 등 같이 쓰는 기능 정리
+https://github.com/sese5554-hue/geunch/commit/61b44f4fc767a5b4ed81f65f32f5311885fda47d
+PRD·프롬프트 문서 정리: 39a95bb · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/39a95bb69f59fedd459e9a98cd2bc77faf2e9615
+
+기능을 만들면서 저장한 커밋
+만들 내용 정리: e1d9fd7 · 내 정보에 보여줄 내용 정리
+https://github.com/sese5554-hue/geunch/commit/e1d9fd740bd1edf31689ede2af8afb07dd4715bb
+화면 만들기: aa08e23 · 이름이랑 인증 상태 보는 화면 만듦
+https://github.com/sese5554-hue/geunch/commit/aa08e23169b09e34e7abf469fc1a85469d7edb3f
+내용 정리: 78ec1d4 · 내 정보랑 인증 상태 따로 정리
+https://github.com/sese5554-hue/geunch/commit/78ec1d41f37d2b1dbb69dbd4a6b17e52efce8203
+동작 연결: e53bf90 · 내 정보 불러오기랑 로그아웃 연결
+https://github.com/sese5554-hue/geunch/commit/e53bf903aaddf944be175df756cab650d88fe488
+확인: 43ad662 · 로그인 전이랑 로그아웃 후 화면 확인
+https://github.com/sese5554-hue/geunch/commit/43ad66249a2ef0b2f803dbfaa0df04be545e3897
+
 직접 확인한 내용과 화면은 docs/37-profile.md에 정리했다.
 
 5. 문제 해결
@@ -538,6 +604,14 @@
 '개인정보 수정' 내용을 PRD랑 비교해서 빠진 기능을 고쳐. 새로고침한 뒤에도 맞게 나오는지 확인해. 문제가 있으면 고치고 바꾼 파일을 알려.
 
 4. 진행 기록
+
+브랜치: shared
+PRD 첫 저장: 61b44f4 · 채팅이랑 내 정보 등 같이 쓰는 기능 정리
+https://github.com/sese5554-hue/geunch/commit/61b44f4fc767a5b4ed81f65f32f5311885fda47d
+PRD·프롬프트 문서 정리: 39a95bb · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/39a95bb69f59fedd459e9a98cd2bc77faf2e9615
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
 
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
@@ -609,6 +683,14 @@
 
 4. 진행 기록
 
+브랜치: shared
+PRD 첫 저장: 61b44f4 · 채팅이랑 내 정보 등 같이 쓰는 기능 정리
+https://github.com/sese5554-hue/geunch/commit/61b44f4fc767a5b4ed81f65f32f5311885fda47d
+PRD·프롬프트 문서 정리: 39a95bb · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/39a95bb69f59fedd459e9a98cd2bc77faf2e9615
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
+
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
 5. 문제 해결
@@ -678,6 +760,14 @@
 '결제수단 관리' 내용을 PRD랑 비교해서 빠진 기능을 고쳐. 새로고침한 뒤에도 맞게 나오는지 확인해. 문제가 있으면 고치고 바꾼 파일을 알려.
 
 4. 진행 기록
+
+브랜치: shared
+PRD 첫 저장: 61b44f4 · 채팅이랑 내 정보 등 같이 쓰는 기능 정리
+https://github.com/sese5554-hue/geunch/commit/61b44f4fc767a5b4ed81f65f32f5311885fda47d
+PRD·프롬프트 문서 정리: 39a95bb · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/39a95bb69f59fedd459e9a98cd2bc77faf2e9615
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
 
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
@@ -749,6 +839,14 @@
 
 4. 진행 기록
 
+브랜치: shared
+PRD 첫 저장: 61b44f4 · 채팅이랑 내 정보 등 같이 쓰는 기능 정리
+https://github.com/sese5554-hue/geunch/commit/61b44f4fc767a5b4ed81f65f32f5311885fda47d
+PRD·프롬프트 문서 정리: 39a95bb · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/39a95bb69f59fedd459e9a98cd2bc77faf2e9615
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
+
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
 5. 문제 해결
@@ -818,6 +916,14 @@
 '고객센터' 내용을 PRD랑 비교해서 빠진 기능을 고쳐. 새로고침한 뒤에도 맞게 나오는지 확인해. 문제가 있으면 고치고 바꾼 파일을 알려.
 
 4. 진행 기록
+
+브랜치: shared
+PRD 첫 저장: 61b44f4 · 채팅이랑 내 정보 등 같이 쓰는 기능 정리
+https://github.com/sese5554-hue/geunch/commit/61b44f4fc767a5b4ed81f65f32f5311885fda47d
+PRD·프롬프트 문서 정리: 39a95bb · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/39a95bb69f59fedd459e9a98cd2bc77faf2e9615
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
 
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
@@ -889,6 +995,14 @@
 
 4. 진행 기록
 
+브랜치: shared
+PRD 첫 저장: 61b44f4 · 채팅이랑 내 정보 등 같이 쓰는 기능 정리
+https://github.com/sese5554-hue/geunch/commit/61b44f4fc767a5b4ed81f65f32f5311885fda47d
+PRD·프롬프트 문서 정리: 39a95bb · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/39a95bb69f59fedd459e9a98cd2bc77faf2e9615
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
+
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
 5. 문제 해결
@@ -958,6 +1072,14 @@
 '채팅 목록' 내용을 PRD랑 비교해서 빠진 기능을 고쳐. 새로고침한 뒤에도 맞게 나오는지 확인해. 문제가 있으면 고치고 바꾼 파일을 알려.
 
 4. 진행 기록
+
+브랜치: shared
+PRD 첫 저장: 61b44f4 · 채팅이랑 내 정보 등 같이 쓰는 기능 정리
+https://github.com/sese5554-hue/geunch/commit/61b44f4fc767a5b4ed81f65f32f5311885fda47d
+PRD·프롬프트 문서 정리: 39a95bb · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/39a95bb69f59fedd459e9a98cd2bc77faf2e9615
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
 
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
@@ -1029,6 +1151,14 @@
 
 4. 진행 기록
 
+브랜치: shared
+PRD 첫 저장: 61b44f4 · 채팅이랑 내 정보 등 같이 쓰는 기능 정리
+https://github.com/sese5554-hue/geunch/commit/61b44f4fc767a5b4ed81f65f32f5311885fda47d
+PRD·프롬프트 문서 정리: 39a95bb · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/39a95bb69f59fedd459e9a98cd2bc77faf2e9615
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
+
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
 5. 문제 해결
@@ -1099,6 +1229,14 @@
 
 4. 진행 기록
 
+브랜치: shared
+PRD 첫 저장: 61b44f4 · 채팅이랑 내 정보 등 같이 쓰는 기능 정리
+https://github.com/sese5554-hue/geunch/commit/61b44f4fc767a5b4ed81f65f32f5311885fda47d
+PRD·프롬프트 문서 정리: 39a95bb · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/39a95bb69f59fedd459e9a98cd2bc77faf2e9615
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
+
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
 5. 문제 해결
@@ -1168,6 +1306,14 @@
 '문의 내역' 내용을 PRD랑 비교해서 빠진 기능을 고쳐. 새로고침한 뒤에도 맞게 나오는지 확인해. 문제가 있으면 고치고 바꾼 파일을 알려.
 
 4. 진행 기록
+
+브랜치: shared
+PRD 첫 저장: 61b44f4 · 채팅이랑 내 정보 등 같이 쓰는 기능 정리
+https://github.com/sese5554-hue/geunch/commit/61b44f4fc767a5b4ed81f65f32f5311885fda47d
+PRD·프롬프트 문서 정리: 39a95bb · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/39a95bb69f59fedd459e9a98cd2bc77faf2e9615
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
 
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
