@@ -49,6 +49,14 @@
 
 4. 진행 기록
 
+브랜치: host
+PRD 첫 저장: 4a1f99d · 차 등록하고 관리할 때 필요한 기능 정리
+https://github.com/sese5554-hue/geunch/commit/4a1f99dd6d0b1219ee8585573668f00e681dc2fd
+PRD·프롬프트 문서 정리: 32c8e8c · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/32c8e8c650dc9614f687645ec4cb1997b61a27d9
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
+
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
 5. 문제 해결
@@ -118,6 +126,14 @@
 '호스트 차량 목록' 내용을 PRD랑 비교해서 빠진 기능을 고쳐. 새로고침한 뒤에도 맞게 나오는지 확인해. 문제가 있으면 고치고 바꾼 파일을 알려.
 
 4. 진행 기록
+
+브랜치: host
+PRD 첫 저장: 4a1f99d · 차 등록하고 관리할 때 필요한 기능 정리
+https://github.com/sese5554-hue/geunch/commit/4a1f99dd6d0b1219ee8585573668f00e681dc2fd
+PRD·프롬프트 문서 정리: 32c8e8c · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/32c8e8c650dc9614f687645ec4cb1997b61a27d9
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
 
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
@@ -189,6 +205,14 @@
 
 4. 진행 기록
 
+브랜치: host
+PRD 첫 저장: 4a1f99d · 차 등록하고 관리할 때 필요한 기능 정리
+https://github.com/sese5554-hue/geunch/commit/4a1f99dd6d0b1219ee8585573668f00e681dc2fd
+PRD·프롬프트 문서 정리: 32c8e8c · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/32c8e8c650dc9614f687645ec4cb1997b61a27d9
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
+
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
 5. 문제 해결
@@ -258,6 +282,24 @@
 '차량 기본 정보 입력' 내용을 PRD랑 비교해서 빠진 기능을 고쳐. 새로고침한 뒤에도 맞게 나오는지 확인해. 문제가 있으면 고치고 바꾼 파일을 알려.
 
 4. 진행 기록
+
+브랜치: host
+PRD 첫 저장: 4a1f99d · 차 등록하고 관리할 때 필요한 기능 정리
+https://github.com/sese5554-hue/geunch/commit/4a1f99dd6d0b1219ee8585573668f00e681dc2fd
+PRD·프롬프트 문서 정리: 32c8e8c · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/32c8e8c650dc9614f687645ec4cb1997b61a27d9
+
+기능을 만들면서 저장한 커밋
+만들 내용 정리: 5259bac · 차 등록할 때 받을 내용 정리
+https://github.com/sese5554-hue/geunch/commit/5259bac9c57a4e7d1d0cf0c5c7d3cf4cfe353740
+화면 만들기: a0ac044 · 차 이름이랑 번호 적는 화면 만듦
+https://github.com/sese5554-hue/geunch/commit/a0ac0441d05f920384c4b0f37bf22483ec3b0a6a
+내용 정리: 598fe5d · 차량 입력값이 맞는지 확인하는 부분 추가
+https://github.com/sese5554-hue/geunch/commit/598fe5da9d4b9c76c656a72a15646ca88f712f20
+동작 연결: d6ca670 · 등록한 차 저장하고 다시 열 수 있게 함
+https://github.com/sese5554-hue/geunch/commit/d6ca6704c7bf237efe6544645739cbab97e47d1c
+확인: c2222dd · 차 저장이랑 중복 번호 확인해봄
+https://github.com/sese5554-hue/geunch/commit/c2222dde51b8104183335c458f38f2be5231258c
 
 직접 확인한 내용과 화면은 docs/28-draft.md에 정리했다.
 
@@ -329,6 +371,14 @@
 
 4. 진행 기록
 
+브랜치: host
+PRD 첫 저장: 4a1f99d · 차 등록하고 관리할 때 필요한 기능 정리
+https://github.com/sese5554-hue/geunch/commit/4a1f99dd6d0b1219ee8585573668f00e681dc2fd
+PRD·프롬프트 문서 정리: 32c8e8c · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/32c8e8c650dc9614f687645ec4cb1997b61a27d9
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
+
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
 5. 문제 해결
@@ -398,6 +448,14 @@
 '차량 세부사항 입력' 내용을 PRD랑 비교해서 빠진 기능을 고쳐. 새로고침한 뒤에도 맞게 나오는지 확인해. 문제가 있으면 고치고 바꾼 파일을 알려.
 
 4. 진행 기록
+
+브랜치: host
+PRD 첫 저장: 4a1f99d · 차 등록하고 관리할 때 필요한 기능 정리
+https://github.com/sese5554-hue/geunch/commit/4a1f99dd6d0b1219ee8585573668f00e681dc2fd
+PRD·프롬프트 문서 정리: 32c8e8c · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/32c8e8c650dc9614f687645ec4cb1997b61a27d9
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
 
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
@@ -469,6 +527,14 @@
 
 4. 진행 기록
 
+브랜치: host
+PRD 첫 저장: 4a1f99d · 차 등록하고 관리할 때 필요한 기능 정리
+https://github.com/sese5554-hue/geunch/commit/4a1f99dd6d0b1219ee8585573668f00e681dc2fd
+PRD·프롬프트 문서 정리: 32c8e8c · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/32c8e8c650dc9614f687645ec4cb1997b61a27d9
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
+
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
 5. 문제 해결
@@ -538,6 +604,14 @@
 'AI 외관 등급' 내용을 PRD랑 비교해서 빠진 기능을 고쳐. 새로고침한 뒤에도 맞게 나오는지 확인해. 문제가 있으면 고치고 바꾼 파일을 알려.
 
 4. 진행 기록
+
+브랜치: host
+PRD 첫 저장: 4a1f99d · 차 등록하고 관리할 때 필요한 기능 정리
+https://github.com/sese5554-hue/geunch/commit/4a1f99dd6d0b1219ee8585573668f00e681dc2fd
+PRD·프롬프트 문서 정리: 32c8e8c · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/32c8e8c650dc9614f687645ec4cb1997b61a27d9
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
 
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
@@ -609,6 +683,14 @@ AI 외관 등급에서 원하는 동작이 나오지 않는 부분을 찾아.
 
 4. 진행 기록
 
+브랜치: host
+PRD 첫 저장: 4a1f99d · 차 등록하고 관리할 때 필요한 기능 정리
+https://github.com/sese5554-hue/geunch/commit/4a1f99dd6d0b1219ee8585573668f00e681dc2fd
+PRD·프롬프트 문서 정리: 32c8e8c · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/32c8e8c650dc9614f687645ec4cb1997b61a27d9
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
+
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
 5. 문제 해결
@@ -678,6 +760,14 @@ AI 외관 등급에서 원하는 동작이 나오지 않는 부분을 찾아.
 '호스트 예약 목록' 내용을 PRD랑 비교해서 빠진 기능을 고쳐. 새로고침한 뒤에도 맞게 나오는지 확인해. 문제가 있으면 고치고 바꾼 파일을 알려.
 
 4. 진행 기록
+
+브랜치: host
+PRD 첫 저장: 4a1f99d · 차 등록하고 관리할 때 필요한 기능 정리
+https://github.com/sese5554-hue/geunch/commit/4a1f99dd6d0b1219ee8585573668f00e681dc2fd
+PRD·프롬프트 문서 정리: 32c8e8c · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/32c8e8c650dc9614f687645ec4cb1997b61a27d9
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
 
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
@@ -749,6 +839,14 @@ AI 외관 등급에서 원하는 동작이 나오지 않는 부분을 찾아.
 
 4. 진행 기록
 
+브랜치: host
+PRD 첫 저장: 4a1f99d · 차 등록하고 관리할 때 필요한 기능 정리
+https://github.com/sese5554-hue/geunch/commit/4a1f99dd6d0b1219ee8585573668f00e681dc2fd
+PRD·프롬프트 문서 정리: 32c8e8c · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/32c8e8c650dc9614f687645ec4cb1997b61a27d9
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
+
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
 5. 문제 해결
@@ -818,6 +916,14 @@ AI 외관 등급에서 원하는 동작이 나오지 않는 부분을 찾아.
 '호스트 수익 대시보드' 내용을 PRD랑 비교해서 빠진 기능을 고쳐. 새로고침한 뒤에도 맞게 나오는지 확인해. 문제가 있으면 고치고 바꾼 파일을 알려.
 
 4. 진행 기록
+
+브랜치: host
+PRD 첫 저장: 4a1f99d · 차 등록하고 관리할 때 필요한 기능 정리
+https://github.com/sese5554-hue/geunch/commit/4a1f99dd6d0b1219ee8585573668f00e681dc2fd
+PRD·프롬프트 문서 정리: 32c8e8c · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/32c8e8c650dc9614f687645ec4cb1997b61a27d9
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
 
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
@@ -889,6 +995,14 @@ AI 외관 등급에서 원하는 동작이 나오지 않는 부분을 찾아.
 
 4. 진행 기록
 
+브랜치: host
+PRD 첫 저장: 4a1f99d · 차 등록하고 관리할 때 필요한 기능 정리
+https://github.com/sese5554-hue/geunch/commit/4a1f99dd6d0b1219ee8585573668f00e681dc2fd
+PRD·프롬프트 문서 정리: 32c8e8c · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/32c8e8c650dc9614f687645ec4cb1997b61a27d9
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
+
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
 5. 문제 해결
@@ -959,6 +1073,14 @@ AI 외관 등급에서 원하는 동작이 나오지 않는 부분을 찾아.
 
 4. 진행 기록
 
+브랜치: host
+PRD 첫 저장: 4a1f99d · 차 등록하고 관리할 때 필요한 기능 정리
+https://github.com/sese5554-hue/geunch/commit/4a1f99dd6d0b1219ee8585573668f00e681dc2fd
+PRD·프롬프트 문서 정리: 32c8e8c · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/32c8e8c650dc9614f687645ec4cb1997b61a27d9
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
+
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
 5. 문제 해결
@@ -1028,6 +1150,14 @@ AI 외관 등급에서 원하는 동작이 나오지 않는 부분을 찾아.
 '게스트 매너 및 이전 평가' 내용을 PRD랑 비교해서 빠진 기능을 고쳐. 새로고침한 뒤에도 맞게 나오는지 확인해. 문제가 있으면 고치고 바꾼 파일을 알려.
 
 4. 진행 기록
+
+브랜치: host
+PRD 첫 저장: 4a1f99d · 차 등록하고 관리할 때 필요한 기능 정리
+https://github.com/sese5554-hue/geunch/commit/4a1f99dd6d0b1219ee8585573668f00e681dc2fd
+PRD·프롬프트 문서 정리: 32c8e8c · 개발 내용만 남기고 문서 정리
+https://github.com/sese5554-hue/geunch/commit/32c8e8c650dc9614f687645ec4cb1997b61a27d9
+
+이 화면의 기능 구현 커밋: 없음. PRD와 프롬프트 문서를 저장한 커밋만 있다.
 
 아직 만들기 전이다. 위 내용을 보면서 하나씩 만들고 확인할 예정이다.
 
