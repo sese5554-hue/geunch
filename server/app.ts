@@ -6,7 +6,7 @@ export function createApp(options:{profiles?:ProfileStore;sessions?:Sessions;dev
   const app=express();
   app.use(helmet());
   app.use(express.json({limit:'64kb'}));
-  app.use(protectChanges(options.origin||'http://127.0.0.1:5184'));
+  app.use(protectChanges(()=>options.origin||'http://127.0.0.1:5184'));
   app.get('/api/health',(_req,res)=>res.json({status:'ok',project:'shared'}));
   app.use('/api',sessionRoutes(options.sessions,options.developmentLogin===true,'demo-guest'));
   app.use('/api',profileRoutes(options.profiles,options.sessions));
