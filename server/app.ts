@@ -6,7 +6,7 @@ export function createApp(options:{vehicles?:DraftStore;sessions?:Sessions;devel
   const app=express();
   app.use(helmet());
   app.use(express.json({limit:'64kb'}));
-  app.use(protectChanges(options.origin||'http://127.0.0.1:5183'));
+  app.use(protectChanges(()=>options.origin||'http://127.0.0.1:5183'));
   app.get('/api/health',(_req,res)=>res.json({status:'ok',project:'host'}));
   app.use('/api',sessionRoutes(options.sessions,options.developmentLogin===true,'demo-host'));
   app.use('/api',draftRoutes(options.vehicles,options.sessions));

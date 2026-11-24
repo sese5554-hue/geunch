@@ -38,12 +38,13 @@
       "screen": 28,
       "title": "차량 기본 정보 입력",
       "stages": {
-        "design": "pending",
-        "layout": "pending",
-        "model": "pending",
-        "logic": "pending",
-        "verification": "pending"
-      }
+        "design": "verified",
+        "layout": "verified",
+        "model": "verified",
+        "logic": "verified",
+        "verification": "verified"
+      },
+      "evidence": "docs/28-draft.md"
     },
     {
       "screen": 29,

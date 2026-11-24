@@ -1,0 +1,52 @@
+import 'dotenv/config';
+import assert from'node:assert/strict';
+import{randomUUID,randomInt,createHash}from'node:crypto';
+import{expect}from'@playwright/test';
+import{createPool,MariaSessions}from'../../server/runtime';
+import{MariaDrafts}from'../../server/vehicles';
+import{createApp}from'../../server/app';
+import{openBrowser}from'./runtime';
+const pool=createPool(),sessions=new MariaSessions(pool),owner='test-'+randomUUID(),guest='guest-'+randomUUID();
+const created:string[]=[],tokens:string[]=[];let browser:Awaited<ReturnType<typeof openBrowser>>|undefined;
+let plate='';
+try{
+  await pool.query("INSERT INTO users(id,name,phone,role) VALUES(?,'다른 호스트','01000000003','host')",[owner]);
+  await pool.query("INSERT INTO users(id,name,phone,role) VALUES(?,'게스트','01000000004','guest')",[guest]);
+  do{plate=String(randomInt(100,999))+'가'+String(randomInt(1000,9999));}while((await pool.query('SELECT id FROM vehicles WHERE plate=?',[plate])).length);
+  const options={vehicles:new MariaDrafts(pool),sessions,developmentLogin:true,origin:''};
+  browser=await openBrowser(createApp(options),origin=>{options.origin=origin;});
+  const{page,base,apiBase}=browser;
+  assert.equal((await fetch(apiBase+'/api/vehicles',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'})).status,401);
+  const guestToken=await sessions.issue(guest);tokens.push(guestToken);
+  assert.equal((await fetch(apiBase+'/api/vehicles',{method:'POST',headers:{'Content-Type':'application/json',Cookie:'geuncha_session='+guestToken},body:'{}'})).status,403);
+  await page.goto(base);await page.getByRole('button',{name:'개발 호스트로 시작'}).click();
+  await expect(page.getByLabel('차 이름')).toBeVisible();
+  const cookies=await page.context().cookies(base+'/api/session');const token=cookies.find(c=>c.name==='geuncha_session')!.value;tokens.push(token);
+  await page.getByLabel('차 이름').fill('아반떼');await page.getByLabel('연식').fill('2022');await page.getByLabel('차량번호').fill(plate);await page.getByLabel('동네').fill('성수동');
+  // Saving is really sent to MariaDB. Repeating a submit while pending must not create another record.
+  await page.locator('form').evaluate(form=>{(form as HTMLFormElement).requestSubmit();(form as HTMLFormElement).requestSubmit();});
+  await expect(page.getByRole('status')).toHaveText('기본 정보가 저장됐어요. 아직 공개 전이에요.');
+  const id=new URL(page.url()).searchParams.get('vehicle')!;created.push(id);
+  const stored=await pool.query('SELECT status,owner_id FROM vehicles WHERE plate=?',[plate]);assert.equal(stored.length,1);assert.equal(stored[0].status,'DRAFT');assert.equal(stored[0].owner_id,'demo-host');
+  await page.reload();await expect(page.getByLabel('차 이름')).toHaveValue('아반떼');await expect(page.getByRole('status')).toHaveText('기본 정보가 저장됐어요. 아직 공개 전이에요.');
+  await page.screenshot({path:'docs/screenshots/28-saved.png',fullPage:true});
+  const foreign=await sessions.issue(owner);tokens.push(foreign);
+  assert.equal((await fetch(apiBase+'/api/vehicles/'+id,{headers:{Cookie:'geuncha_session='+foreign}})).status,404);
+  const attempted=await fetch(apiBase+'/api/vehicles',{method:'POST',headers:{'Content-Type':'application/json',Cookie:'geuncha_session='+token},body:JSON.stringify({name:'다른 차',year:2023,plate,neighborhood:'성수동',ownerId:owner})});assert.equal(attempted.status,400);
+  await page.getByRole('button',{name:'다른 차량 등록'}).click();
+  await page.getByLabel('차 이름').fill('다시 등록');await page.getByLabel('연식').fill('2023');await page.getByLabel('차량번호').fill(plate);await page.getByLabel('동네').fill('성수동');
+  await page.getByRole('button',{name:'기본 정보 저장',exact:true}).click();
+  await expect(page.getByRole('alert')).toContainText('이미 등록된 차량번호입니다.');
+  await expect(page.getByLabel('차 이름')).toHaveValue('다시 등록');
+  await page.screenshot({path:'docs/screenshots/28-duplicate.png',fullPage:true});
+  await page.route('**/api/vehicles',route=>route.fulfill({status:503,contentType:'application/json',body:JSON.stringify({message:'저장하지 못했습니다.'})}));
+  await page.getByRole('button',{name:'기본 정보 저장',exact:true}).click();await expect(page.getByRole('alert')).toContainText('저장하지 못했습니다.');await expect(page.getByLabel('차량번호')).toHaveValue(plate);
+  await page.unroute('**/api/vehicles');
+  const protectedResponse=await fetch(apiBase+'/api/vehicles',{method:'POST',headers:{'Content-Type':'application/json',Origin:'https://another.example',Cookie:'geuncha_session='+token},body:'{}'});assert.equal(protectedResponse.status,403);
+  console.log('확인 통과: 실제 DB 저장·재조회, 중복 클릭, 초안 유지, 중복 번호, 입력 유지, 다른 소유자 접근·입력 변조·다른 사이트 차단');
+}finally{
+  await browser?.close();
+  for(const id of created)await pool.query('DELETE FROM vehicles WHERE id=?',[id]);
+  for(const token of tokens)await pool.query('DELETE FROM sessions WHERE token_hash=?',[createHash('sha256').update(token).digest('hex')]);
+  await pool.query('DELETE FROM users WHERE id=?',[owner]);await pool.query('DELETE FROM users WHERE id=?',[guest]);await pool.end();
+}
