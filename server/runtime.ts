@@ -12,7 +12,7 @@ export class MariaSessions implements Sessions {
   async revoke(token:string){if(token)await this.pool.query('DELETE FROM sessions WHERE token_hash=?',[hash(token)]);}
 }
 export function createPool(){if(!process.env.DB_PASSWORD)throw Error('Set DB_PASSWORD in .env');return mariadb.createPool({host:process.env.DB_HOST||'127.0.0.1',port:Number(process.env.DB_PORT||3307),user:process.env.DB_USER||'geuncha',password:process.env.DB_PASSWORD,database:process.env.DB_NAME,connectionLimit:5,timezone:'Z',connectTimeout:5000});}
-export const protectChanges=(origin:string):RequestHandler=>(req,res,next)=>{if(!['GET','HEAD','OPTIONS'].includes(req.method)&&req.headers.origin&&req.headers.origin!==origin){res.status(403).json({message:'이 주소에서는 요청할 수 없습니다.'});return;}next();};
+export const protectChanges=(origin:string|(()=>string)):RequestHandler=>(req,res,next)=>{if(!['GET','HEAD','OPTIONS'].includes(req.method)&&req.headers.origin&&req.headers.origin!==(typeof origin==='function'?origin():origin)){res.status(403).json({message:'이 주소에서는 요청할 수 없습니다.'});return;}next();};
 export function sessionRoutes(sessions:Sessions|undefined,developmentLogin:boolean,userId:string){
  const routes=Router();
  routes.get('/session',async(req,res)=>{const token=sessionToken(req);res.setHeader('Cache-Control','no-store');res.json({user:token&&sessions?await sessions.resolve(token):null,developmentLogin:developmentLogin&&process.env.NODE_ENV!=='production'});});

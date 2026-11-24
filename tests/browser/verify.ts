@@ -1,0 +1,50 @@
+import 'dotenv/config';
+import assert from 'node:assert/strict';
+import {randomUUID} from 'node:crypto';
+import {expect} from '@playwright/test';
+import {createPool} from '../../server/runtime';
+import {MariaVehicles} from '../../server/vehicles';
+import {createApp} from '../../server/app';
+import {openBrowser} from './runtime';
+
+const pool=createPool(),ids=[randomUUID(),randomUUID(),randomUUID()];
+const area='확인동네'+randomUUID().slice(0,6);
+let browser:Awaited<ReturnType<typeof openBrowser>>|undefined;
+try{
+  for(const[index,id]of ids.entries())await pool.query('INSERT INTO vehicles(id,name,year,neighborhood,fuel,seats,daily_price,status) VALUES(?,?,?,?,?,?,?,?)',[id,index===0?'아반떼':index===1?'캐스퍼':'숨긴 차량',2023,area,'휘발유',5,index===0?40000:20000,index===2?'DRAFT':'PUBLISHED']);
+  browser=await openBrowser(createApp({vehicles:new MariaVehicles(pool)}),()=>{});
+  const{page,base,apiBase}=browser;
+  assert.equal((await fetch(apiBase+'/api/vehicles')).status,400);
+  const response=await fetch(apiBase+'/api/vehicles?neighborhood='+encodeURIComponent(area));
+  const list=await response.json();assert.equal(list.length,2);assert.equal(JSON.stringify(list).includes('숨긴 차량'),false);assert.equal('plate'in list[0],false);
+  await page.goto(base);
+  await expect(page.getByText('찾을 동네를 정해 주세요.')).toBeVisible();
+  await page.getByLabel('찾을 동네').fill(area);
+  await page.getByRole('button',{name:'차 찾기',exact:true}).click();
+  await expect(page.getByRole('heading',{name:'아반떼',exact:true})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'캐스퍼',exact:true})).toBeVisible();
+  await page.getByLabel('하루 최대 예산').fill('30000');
+  await page.getByRole('button',{name:'차 찾기',exact:true}).click();
+  await expect(page.getByRole('heading',{name:'아반떼',exact:true})).toHaveCount(0);
+  await expect(page.getByRole('heading',{name:'캐스퍼',exact:true})).toBeVisible();
+  await page.reload();
+  await expect(page.getByLabel('하루 최대 예산')).toHaveValue('30000');
+  await expect(page.getByRole('heading',{name:'캐스퍼',exact:true})).toBeVisible();
+  await page.screenshot({path:'docs/screenshots/08-search.png',fullPage:true});
+  await page.getByLabel('차 이름').fill('없는차');
+  await page.getByRole('button',{name:'차 찾기',exact:true}).click();
+  await expect(page.getByText('조건에 맞는 차량이 없어요. 다른 조건으로 찾아보세요.')).toBeVisible();
+  await page.screenshot({path:'docs/screenshots/08-empty.png',fullPage:true});
+  await page.route('**/api/vehicles?**',route=>route.fulfill({status:503,contentType:'application/json',body:JSON.stringify({message:'목록을 불러오지 못했습니다.'})}));
+  await page.getByLabel('차 이름').fill('');await page.getByRole('button',{name:'차 찾기',exact:true}).click();
+  await expect(page.getByRole('alert')).toContainText('목록을 불러오지 못했습니다.');
+  await page.unroute('**/api/vehicles?**');await page.getByRole('button',{name:'다시 찾기',exact:true}).click();
+  await expect(page.getByRole('heading',{name:'캐스퍼',exact:true})).toBeVisible();
+  // A late old response must not replace the result for the latest conditions.
+  await page.route('**/api/vehicles?**',async route=>{if(new URL(route.request().url()).searchParams.get('q')==='늦은검색'){await new Promise(resolve=>setTimeout(resolve,400));await route.fulfill({contentType:'application/json',body:JSON.stringify([{id:'old',name:'예전 결과',year:2020,neighborhood:area,fuel:'전기',seats:4,dailyPrice:10000}])}).catch(()=>{});}else await route.continue();});
+  await page.getByLabel('차 이름').fill('늦은검색');await page.getByRole('button',{name:'차 찾기',exact:true}).click();
+  await page.getByLabel('차 이름').fill('캐스퍼');await page.getByRole('button',{name:'차 찾기',exact:true}).click();
+  await expect(page.getByRole('heading',{name:'캐스퍼',exact:true})).toBeVisible();
+  await page.waitForTimeout(550);await expect(page.getByRole('heading',{name:'예전 결과'})).toHaveCount(0);
+  console.log('확인 통과: 실제 DB 검색, 공개 차량만 조회, 예산 조건, 새로고침, 빈 목록, 오류 후 재시도, 이전 요청 무시');
+}finally{await browser?.close();for(const id of ids)await pool.query('DELETE FROM vehicles WHERE id=?',[id]);await pool.end();}
