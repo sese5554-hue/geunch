@@ -1,0 +1,168 @@
+[
+  {
+    "number": 1,
+    "id": "01",
+    "title": "홈 둘러보기",
+    "group": "auth",
+    "related": [
+      0,
+      2,
+      3,
+      8,
+      12
+    ]
+  },
+  {
+    "number": 8,
+    "id": "08",
+    "title": "게스트 홈",
+    "group": "guest",
+    "related": [
+      9,
+      10,
+      11,
+      12,
+      37,
+      44,
+      45
+    ]
+  },
+  {
+    "number": 9,
+    "id": "09",
+    "title": "지도에서 차량 찾기",
+    "group": "guest",
+    "related": [
+      6,
+      8,
+      10,
+      12
+    ]
+  },
+  {
+    "number": 10,
+    "id": "10",
+    "title": "차량 검색 결과",
+    "group": "guest",
+    "related": [
+      8,
+      9,
+      11,
+      12
+    ]
+  },
+  {
+    "number": 11,
+    "id": "11",
+    "title": "검색 필터",
+    "group": "guest",
+    "related": [
+      8,
+      10
+    ]
+  },
+  {
+    "number": 12,
+    "id": "12",
+    "title": "차량 상세",
+    "group": "guest",
+    "related": [
+      10,
+      13,
+      14
+    ]
+  },
+  {
+    "number": 13,
+    "id": "13",
+    "title": "차량 세부 정보",
+    "group": "guest",
+    "related": [
+      12,
+      14,
+      48
+    ]
+  },
+  {
+    "number": 14,
+    "id": "14",
+    "title": "대여 일정",
+    "group": "guest",
+    "related": [
+      12,
+      15
+    ]
+  },
+  {
+    "number": 15,
+    "id": "15",
+    "title": "예약 확인",
+    "group": "guest",
+    "related": [
+      14,
+      16,
+      48
+    ]
+  },
+  {
+    "number": 16,
+    "id": "16",
+    "title": "결제 수단 및 예약 요청",
+    "group": "guest",
+    "related": [
+      15,
+      17,
+      40,
+      46,
+      48
+    ]
+  },
+  {
+    "number": 17,
+    "id": "17",
+    "title": "예약 요청 및 완료",
+    "group": "guest",
+    "related": [
+      16,
+      18,
+      19,
+      45
+    ]
+  },
+  {
+    "number": 18,
+    "id": "18",
+    "title": "예약 상세",
+    "group": "guest",
+    "related": [
+      17,
+      19,
+      20,
+      23,
+      45
+    ]
+  },
+  {
+    "number": 45,
+    "id": "45",
+    "title": "게스트 예약 목록",
+    "group": "guest",
+    "related": [
+      8,
+      17,
+      18
+    ]
+  },
+  {
+    "number": 48,
+    "id": "48",
+    "title": "보험 선택",
+    "group": "guest",
+    "related": [
+      15,
+      16,
+      20,
+      21
+    ]
+  }
+]
